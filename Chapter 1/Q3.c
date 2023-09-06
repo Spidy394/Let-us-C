@@ -1,6 +1,6 @@
 /*
     Calculation of aggregate marks and percentage.
-    Author: Shubhodeep Mondal, Date: 06/09/2023
+    Date: 06/09/2023
 */
 
 # include<stdio.h>

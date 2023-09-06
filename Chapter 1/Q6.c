@@ -1,6 +1,6 @@
 /*
     Calculation of dimentions of pages from A0 to A8.
-    Author: Shubhodeep Mondal, Date: 06/09/2023
+     Date: 06/09/2023
 */
 
 #include <stdio.h>

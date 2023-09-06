@@ -1,6 +1,6 @@
 /*
     Temp. convertion from  Fahrenheit to Centigrade
-    Author: Shubhodeep Mondal, Date: 06/09/2023
+    Date: 06/09/2023
 */
 
 # include<stdio.h>
