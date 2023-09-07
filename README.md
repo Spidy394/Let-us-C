@@ -6,4 +6,4 @@
 <br>
   ✒Co-Author - Souvik Nath  
 
-  ![git and c logo](https://skillicons.dev/icons?i=git, github, c)
+  ![git and c logo](https://skillicons.dev/icons?i=git,github,c)
