@@ -1,8 +1,9 @@
 # 📌 Chapter 2: C Instructions
 
 1. If a five-digit number is input through the keyboard, write a 
-program to calculate the sum of its digits. (Hint: Use the modulus 
-operator ‘%’) 
+program to calculate the sum of its digits.
+
+        (Hint: Use the modulus operator ‘%’) 
 
 1. If a five-digit number is input through the keyboard, write a 
 program to reverse the number. 
