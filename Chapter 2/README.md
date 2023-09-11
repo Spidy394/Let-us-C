@@ -27,11 +27,11 @@ distance in nautical miles is:
 wind. The wind chill temperature is always lower than the air 
 temperature, and is calculated as per the following formula: 
 
-        wcf = 35.74 + 0.6215t + ( 0.4275t - 35.75 ) * v0.16 
+        wcf = 35.74 + 0.6215t + ( 0.4275t - 35.75 ) * v^(0.16) 
 
     where t is the temperature and v is the wind velocity. Write a 
-program to receive values of t and v and calculate wind chill factor 
-(wcf). 
+    program to receive values of t and v and calculate wind chill factor 
+    (wcf). 
 
 1. If value of an angle is input through the keyboard, write a program 
 to print all its Trigonometric ratios.
