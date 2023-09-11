@@ -14,14 +14,14 @@ keyboard, write a program to find the area of the triangle.
 1. Write a program to receive Cartesian co-ordinates (x, y) of a point 
 and convert them into polar co-ordinates (r,φ).  
         
-        Hint:  r = sqrt ( x2 + y2 ) and tan-1 ( y / x )
+         Hint:  r = sqrt ( x2 + y2 ) and tan^(-1) ( y / x )
              
 1. Write a program to receive values of latitude (L1, L2) and longitude 
 (G1, G2), in degrees, of two places on the earth and output the 
 distance (D) between them in nautical miles. The formula for 
 distance in nautical miles is: 
 
-        D = 3963 cos-1 ( sin L1 sin L2 + cos L1 cos L2 * cos ( G2 – G1 ) ) 
+        D = 3963 cos^(-1) ( sin L1 sin L2 + cos L1 cos L2 * cos ( G2 – G1 ) ) 
 
 1. Wind chill factor is the felt air temperature on exposed skin due to 
 wind. The wind chill temperature is always lower than the air 
