@@ -20,5 +20,6 @@ int main()
     wcf = 35.74 + 0.6215*t + ( 0.4275*t - 35.75 ) * (pow(v,0.16));
 
     printf("Wind Chill factor: %f fahrenheit", wcf);
+    
     return 0;
 }
