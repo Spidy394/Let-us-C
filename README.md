@@ -1,6 +1,6 @@
 # 🚀 Welcome to Let-us-C  
 
-### 💎 `This is repo contains solution of all programing questions from the book "Let us C" - by Yashavant P Kanetkar.`
+### 💎 `This repository contains solution of all programing questions from the book "Let us C" - by Yashavant P Kanetkar.`
 
 ### ✍🏻 Author - [Shubhodeep Mondal](https://github.com/Spidy394)
 
