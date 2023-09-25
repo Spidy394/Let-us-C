@@ -45,23 +45,23 @@ triangle is valid if the sum of two sides is greater than the largest of the thr
 write a program to check whether the triangle is isosceles,
 equilateral, scalene or right angled triangle.
 
-1. In boxing the weight class of a boxer is decided as per the following 
-table. Write a program that receives weight as input and prints out 
-the boxer’s weight class. 
+1. In boxing the weight class of a boxer is decided as per the following
+table. Write a program that receives weight as input and prints out
+the boxer’s weight class.
 
     | Boxer Class    | Weight in Pounds |
     |:--------------:|:----------------:|
     |  Flyweight     | < 115            |
-    | Bantamweight   | 115 - 121        | 
+    | Bantamweight   | 115 - 121        |
     | Featherweight  | 122 - 153        |
     | Middleweight   | 154 – 189        |
     | Heavyweight    | >= 190           |
 
-1. In digital world colors are specified in Red-Green-Blue (RGB) format, 
-with values of R, G, B varying on an integer scale from 0 to 255. In 
+1. In digital world colors are specified in Red-Green-Blue (RGB) format,
+with values of R, G, B varying on an integer scale from 0 to 255. In
 print publishing the colors are mentioned in Cyan-Magenta-Yellow
-Black (CMYK) format, with values of C, M, Y, and K varying on a real 
-scale from 0.0 to 1.0. Write a program that converts RGB color to 
+Black (CMYK) format, with values of C, M, Y, and K varying on a real
+scale from 0.0 to 1.0. Write a program that converts RGB color to
 CMYK color as per the following formulae:  
 
         White = Max(Red/255, Green/255, Blue/255)
@@ -76,8 +76,8 @@ CMYK color as per the following formulae:
 
         Note that if the RGB values are all 0, then the CMY values are all 0 and the K value is 1. 
 
-1. Write a program that receives month and date of birth as input and 
-prints the corresponding Zodiac sign based on the following table: 
+1. Write a program that receives month and date of birth as input and
+prints the corresponding Zodiac sign based on the following table:
 
     | Sun Sign       | From - To                  |
     | :------------: | :------------------------: |
@@ -94,9 +94,9 @@ prints the corresponding Zodiac sign based on the following table:
     | Scorpio        | October 23 - November 21   |
     | Sagittarius    | November 22 - December 21  |
 
-1. The Body Mass Index (BMI) is defined as ratio of the weight of a 
-person (in kilograms) to the square of the height (in meters). Write 
-a program that receives weight and height, calculates the BMI, and 
+1. The Body Mass Index (BMI) is defined as ratio of the weight of a
+person (in kilograms) to the square of the height (in meters). Write
+a program that receives weight and height, calculates the BMI, and
 reports the BMI category as per the following table:
 
     | BMI Category        | BMI Rang       |
