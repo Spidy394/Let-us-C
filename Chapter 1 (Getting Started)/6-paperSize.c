@@ -7,6 +7,7 @@
 
 int main() 
 {
+    // declaring variables 
     int width, height;
 
     // Calculate and print dimensions for A0
