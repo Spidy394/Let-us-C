@@ -8,8 +8,10 @@
 
 int main()
 {
+    // declaring variables
     float l, b, r, area1, area2, perimeter, circumference;
 
+    // taking inputs
     printf("Enter length of rectangle: ");
     scanf("%f", &l);
     printf("Enter breadth of rectangle: ");
@@ -17,11 +19,12 @@ int main()
     printf("Enter radius of circle: ");
     scanf("%f", &r);
 
-    area1 = l*b;
-    area2 = pi*r*r;
-    perimeter = 2*(l+b);
-    circumference = 2*pi*r;
+    area1 = l*b; // calculating area of rectangle
+    area2 = pi*r*r; // calculating area of circle 
+    perimeter = 2*(l+b); // calculating perimeter of rectangle
+    circumference = 2*pi*r; // calculating circumfarence of circle 
 
+    // printing the results
     printf("\nArea of rectangle is: %.2f sq. unit", area1);
     printf("\nArea of circle is: %.2f sq. unit", area2);
     printf("\nPerimeter of rectangle is: %.2f  units", perimeter);
