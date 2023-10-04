@@ -7,19 +7,24 @@
 
 int main()
 {
+    // declaration of variable
     float km, m, f, i, cm;
 
+    // taking inputs 
     printf("Enter distance in Km: ");
     scanf("%f", &km);
 
+    // unit convertion
     m = km * 1000;
     cm = km * 100000;
     f = km * 3280.84;
     i = km * 39370.08;
 
+    // printing results
     printf("\nDistance in meters: %.2f", m);
     printf("\nDistance in feets: %.2f", f);
     printf("\nDistance in inches: %.2f", i);
     printf("\nDistance in centimeters: %.2f", cm);
+    
     return 0;
 }
