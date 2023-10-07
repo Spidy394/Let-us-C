@@ -8,6 +8,7 @@
 
 int main()
 {
+    // variable declaration
     float l1, l2, g1, g2, distance;
 
     // taking inputs of latitudes and longitudes
@@ -30,6 +31,7 @@ int main()
     // calculating distance in nautical miles
     distance = 3963 * acos( ( sin(l1) * sin(l2) + cos(l1) * cos(l2) * cos(g2 - g1) ) );
 
+    // print result
     printf("Distance in nautical miles: %.2f", distance);
 
     return 0;
