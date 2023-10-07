@@ -8,6 +8,7 @@
 
 int main()
 {
+    // variable declaration
     float t, v, wcf;
 
     // taking inputs of t and v
@@ -19,6 +20,7 @@ int main()
     // calculating wind chill factor 
     wcf = 35.74 + 0.6215*t + ( 0.4275*t - 35.75 ) * (pow(v,0.16));
 
+    // print result
     printf("Wind Chill factor: %f fahrenheit", wcf);
     
     return 0;
