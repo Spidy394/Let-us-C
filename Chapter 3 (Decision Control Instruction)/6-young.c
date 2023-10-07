@@ -7,8 +7,10 @@
 
 int main()
 {
+    // variable declaration
     int x, y, z;
 
+    // take input
     printf("Enter Ram's age: ");
     scanf("%d", &x);
     printf("Enter Shyam's age: ");
@@ -16,6 +18,7 @@ int main()
     printf("Enter Ajay's age: ");
     scanf("%d", &z);
 
+    // comparing ages of the three, find youngest and print result
     if (x < y) 
     {
         if (x < z) 
