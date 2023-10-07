@@ -7,11 +7,14 @@
 
 int main()
 {
+    // variable declaration
     float x, y;
 
+    // take input 
     printf("Enter coordinate of a point: ");
     scanf("%f %f", &x, &y);
 
+    // apply conditions to check if point lies on x-axis or origin and print result
     if (x == 0) 
     {
         if (y != 0)
@@ -20,6 +23,7 @@ int main()
             printf("The point is on the origin");
     }
 
+    // apply conditions to check if point lies on y-axis or xy plane and print result
     else if (y == 0) 
     printf("The point lies on the y-axis");
     
