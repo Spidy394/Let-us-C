@@ -7,8 +7,10 @@
 
 int main()
 {
+    // variable declration
     int N, num_1, num_2, num_5, num_10, num_50, num_100;
 
+    // take inputs
     printf("Enter value of N: ");
     scanf("%d", &N);
 
@@ -35,6 +37,7 @@ int main()
     // counting no of 1 notes 
     num_1 = N / 1;
 
+    // print results 
     printf("No of 100 notes: %d\n", num_100);
     printf("No of 50 notes: %d\n", num_50);
     printf("No of 10 notes: %d\n", num_10);
