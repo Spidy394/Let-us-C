@@ -7,6 +7,7 @@
 # include <math.h>
 int main()
 {
+    // variable declaration
     float x, y, radialDistance, angle;
 
     // taking inputs for x and y coordinates
@@ -21,6 +22,7 @@ int main()
     // finding angle in radian
     angle = atan2(y,x);
 
+    // print result
     printf("The Polar Coordinarte is: (%.2f,%.2f radians)", radialDistance , angle);
 
     return 0;
