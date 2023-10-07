@@ -7,8 +7,10 @@
 
 int main()
 {
+    // variable declaration
     int n , d1, d2, d3, d4, d5, revers;
 
+    // taking inputs  
     printf("Enter a 5-Digit no: ");
     scanf("%d", &n);
 
@@ -22,6 +24,7 @@ int main()
     //  joining the digits 
     revers = d1 * 10000 + d2 * 1000 + d3 * 100 + d4 * 10 + d5;
 
+    // print result
     printf("Reverse: %d", revers);
 
     return 0;
