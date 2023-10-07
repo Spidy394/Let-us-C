@@ -7,6 +7,7 @@
 
 int main()
 {
+    // variable declaration
     int n, d1, d2, d3, d4, d5, reverse; 
 
     printf("Enter a 5-Digit no: ");
@@ -18,10 +19,11 @@ int main()
     d3 = (n / 100) % 10;
     d4 = (n / 1000) % 10;
     d5 = (n / 10000) % 10;
-    
+
+    // reversing 
     reverse = d5*10000 + d4*1000 + d3*100 + d2*10 + d1;
 
-    // checking weather reverse is also same as original
+    // checking weather reverse is also same as original and print result
     if (reverse == n)
         printf("Reverse of %d is same as it", n);
     
