@@ -7,12 +7,14 @@
 
 int main()
 {
-
+    // variable declaration
     int n;
 
+    // take input
     printf("Enter an integer no: ");
     scanf("%d", &n);
 
+    // apply condition to check even or odd and print result
     if(n%2 == 0)
         printf("It is and even no.");
     else
