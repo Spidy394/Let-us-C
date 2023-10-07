@@ -8,8 +8,10 @@
 
 int main()
 {
+    // variable declaration 
     float center_x, center_y, x, y, radius, distance;
 
+    // take inputs 
     printf("Enter the coordinate of center of circle: ");
     scanf("%f %f", &center_x, &center_y);
     printf("Enter radius of circle: ");
@@ -17,9 +19,10 @@ int main()
     printf("Enter coordinate of point: ");
     scanf("%f %f", &x, &y);
 
-//     Calculate the distance between the center of the circle and the point
+    // Calculate the distance between the center of the circle and the point
     distance = sqrt(pow((x - center_x),2) + pow((y - center_y),2));
 
+    // apply condition to check position of point and print result
     if (distance < radius)
         printf("The point lies inside the circle");
 
