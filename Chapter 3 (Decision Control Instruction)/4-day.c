@@ -7,6 +7,7 @@
 
 int main()
 {
+    // variable decleration
     int year, leap, noy, totalDays, day;
 
     // take input
@@ -25,6 +26,7 @@ int main()
     // determine the day 
     day = (totalDays + 1) % 7;
 
+    // apply condition to find day and print result
     if(day == 0)
         printf("It is Sunday");
     
