@@ -6,8 +6,10 @@
 
 int main()
 {
+    // variable declration
     float x1, y1, x2, y2, x3, y3, slope1, slope2;
 
+    // take inputs 
     printf("Enter 1st point: ");
     scanf("%f %f", &x1, &y1);
     printf("Enter 2nd point: ");
@@ -15,9 +17,11 @@ int main()
     printf("Enter 3rd point: ");
     scanf("%f %f", &x3, &y3);
 
+    // calculate slopes
     slope1 = (y2 - y1)/(x2 - x1);
     slope2 = (y3 - y2)/(x3 - x2);
 
+    // apply conditions to check collinearity and print result
     if (slope1 == slope2)
         printf("All the points lie on the same st. line i.e. collinear");
     
